@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TelemetryFlow")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bfc115a6ba83654e549ce96ba76bb096b3ab4a67")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+08ace12b5ccfac2681ed001ab0b499ca8af1cc50")]
 [assembly: System.Reflection.AssemblyProductAttribute("TelemetryFlow")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TelemetryFlow")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
