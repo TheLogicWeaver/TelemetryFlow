@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Personal\\TelemetryFlow\\TelemetryFlow.csproj": {}
+    "C:\\Personal\\GitSrc\\TelemetryFlow\\TelemetryFlow.csproj": {}
   },
   "projects": {
-    "C:\\Personal\\TelemetryFlow\\TelemetryFlow.csproj": {
+    "C:\\Personal\\GitSrc\\TelemetryFlow\\TelemetryFlow.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Personal\\TelemetryFlow\\TelemetryFlow.csproj",
+        "projectUniqueName": "C:\\Personal\\GitSrc\\TelemetryFlow\\TelemetryFlow.csproj",
         "projectName": "TelemetryFlow",
-        "projectPath": "C:\\Personal\\TelemetryFlow\\TelemetryFlow.csproj",
+        "projectPath": "C:\\Personal\\GitSrc\\TelemetryFlow\\TelemetryFlow.csproj",
         "packagesPath": "C:\\Users\\aniro\\.nuget\\packages\\",
-        "outputPath": "C:\\Personal\\TelemetryFlow\\obj\\",
+        "outputPath": "C:\\Personal\\GitSrc\\TelemetryFlow\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

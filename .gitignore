@@ -1,5 +1,7 @@
 /.vs
 /TelemetryFlow/bin
-TelemetryFlow/bin/Debug
-TelemetryFlow/bin/Release
-TelemetryFlow/obj
+/TelemetryFlow/bin/Debug
+/TelemetryFlow/bin/Release
+/TelemetryFlow/obj
+/TelemetryFlow/bin/Debug/net9.0
+/TelemetryFlow/obj
