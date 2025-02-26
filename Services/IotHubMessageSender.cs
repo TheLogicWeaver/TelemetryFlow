@@ -11,14 +11,13 @@ namespace TelemetryFlow.Services
 {
     internal class IotHubMessageSender : IMessageSender
     {
-        private readonly DeviceClient _deviceClient;
-        private readonly string _connectionString = ProjectConstants.DevieConnectionString ?? string.Empty;
         private readonly ILogger _logger;
+        private readonly IDeviceClientWrapper _deviceClientWrapper;
 
-        public IotHubMessageSender(ILogger logger)
+        public IotHubMessageSender(ILogger logger, IDeviceClientWrapper deviceClientWrapper)
         {
-            _deviceClient = DeviceClient.CreateFromConnectionString(_connectionString);
             _logger = logger;
+            _deviceClientWrapper = deviceClientWrapper;
         }
 
         public async Task SendMessageAsync(TelemetryData data)
@@ -28,7 +27,10 @@ namespace TelemetryFlow.Services
 
             try
             {
-                await _deviceClient.SendEventAsync(message);
+                if(message.GetBytes().Length == 0){
+                    _logger.Error("Message is empty!");
+                }
+                await _deviceClientWrapper.SendEventAsync(message);
                 _logger.Information($"📡 Sent: {jsonMessage}");
             }
             catch (Exception ex)

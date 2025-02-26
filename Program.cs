@@ -21,6 +21,7 @@ namespace TelemetryFlow
             .AddSingleton<IMessageSender, IotHubMessageSender>()
             .AddSingleton<IDeviceSimulator, DeviceSimulator>()
             .AddSingleton<IStartupService, StartupService>()
+            .AddSingleton<IDeviceClientWrapper, DeviceClientWrapper>()
             .BuildServiceProvider();
 
             var service = serviceProvider.GetService<IStartupService>();

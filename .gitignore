@@ -6,3 +6,14 @@
 /TelemetryFlow/bin/Debug/net9.0
 /TelemetryFlow/obj
 /obj
+*.dll
+bin/Debug/net9.0/TelemetryFlow.deps.json
+bin/Debug/net9.0/TelemetryFlow.pdb
+bin/Debug/net9.0/TelemetryFlow.runtimeconfig.json
+bin/Debug/net9.0/TelemetryFlow.exe
+bin/Debug/net8.0/TelemetryFlow.deps.json
+bin/Debug/net8.0/TelemetryFlow.exe
+bin/Debug/net8.0/TelemetryFlow.pdb
+bin/Debug/net8.0/TelemetryFlow.runtimeconfig.json
+bin/Debug/net8.0/Logs/Log2252025.txt
+bin/Debug/net8.0/Logs/Log2262025.txt
